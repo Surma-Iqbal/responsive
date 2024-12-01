@@ -1,0 +1,50 @@
+.my-text{
+    font-size: 100px;
+    color: black;
+}
+
+@media (max-width:575.9px) {
+    /*your css class*/
+    .my-text{
+        font-size: 20px;
+        color: red;
+    }
+}
+@media (min-width:576px) and (max-width:767.9px) {
+    /*your css class*/
+    .my-text{
+        font-size: 40px;
+        color: rgb(101, 248, 72);
+    }
+}
+@media (min-width:768px) and (max-width:991.9px) {
+    /*your css class*/
+    .my-text{
+        font-size: 60px;
+        color: #9900ff;
+    }
+}
+@media (min-width:992px) and (max-width:1199.9px) {
+    /*your css class*/
+    .my-text{
+        font-size: 80px;
+        color: rgba(0, 170, 255, 0.872);
+    }
+}
+    
+
+@media (min-width:1200px) and (max-width:1399.9px) {
+    /*your css class*/
+    .my-text{
+        font-size: 90px;
+        color:chocolate;
+    }
+}
+
+@media (min-width:1400px) {
+    /*your css class*/
+    .my-text{
+        font-size: 100px;
+        color:darkblue;
+    }
+}
